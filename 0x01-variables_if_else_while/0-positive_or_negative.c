@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - Positive_or_Negative
  *
- * Return: return 0
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	int n;
