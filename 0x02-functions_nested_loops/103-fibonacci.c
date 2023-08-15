@@ -28,7 +28,7 @@ int main(void)
 		term_count++;
 	}
 
-	printf("The sum of even-valued Fibonacci terms: %lu\n", even_sum);
+	printf("%lu\n", even_sum);
 
 	return (0);
 }
