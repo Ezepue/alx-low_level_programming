@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include "lists.h"
 
 /**
@@ -22,7 +21,6 @@ size_t free_listint_safe(listint_t **h)
 		free(temp);
 		size++;
 
-		/* Check if we're in a loop */
 		if (temp <= current)
 		{
 			*h = NULL;
