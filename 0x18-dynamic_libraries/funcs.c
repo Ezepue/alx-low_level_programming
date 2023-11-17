@@ -1,4 +1,5 @@
-#include <stdlib.h>
+#include <stdio.h>
+
 /**
  * add - addition
  * @a: num 1
@@ -36,13 +37,13 @@ int mod(int a, int b)
 }
 
 /**
- * half - divide
+ * div - divide
  * @a: num 1
  * @b: num 2
  * Return: div result
 */
 
-int half(int a, int b)
+int div(int a, int b)
 {
 	return (a / b);
 }
